@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "CGI V3",
   tagline: "documentacion de la version 3 de CGI",
-  favicon: "img/favicon.ico",
+  favicon: "img/milano32.png",
 
   // Set the production url of your site here
   url: "http://pruebas-mm.milano-melody.net/",
@@ -68,10 +68,15 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://github.com/sistemasmilano/CGIV3.Client",
+          label: "Client",
+          position: "right",
+        },
+        {
+          href: "https://github.com/sistemasmilano/CGIV3.Server",
+          label: "Server",
           position: "right",
         },
       ],
@@ -80,46 +85,24 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "CGI ",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "BASE",
+              href: "https://cgi.melody-milano.com.mx/CGI/default.aspx",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "V2",
+              href: "https://cgi.melody-milano.com.mx/CGIV2",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "V3",
+              href: "https://cgi.melody-milano.com.mx/CGIV3/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} - Milano Operadora S.A. de C.V.`,
     },
     prism: {
       theme: prismThemes.github,
