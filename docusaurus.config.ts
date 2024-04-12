@@ -8,15 +8,15 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "http://pruebas-mm.milano-melody.net/CGIV3/",
+  url: "http://pruebas-mm.milano-melody.net/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/CGIV3/doc/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Milano", // Usually your GitHub org/user name.
+  projectName: "CGIV3", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -43,8 +43,7 @@ const config: Config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/sistemasmilano/documentacion/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -57,10 +56,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "CGI V3",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "CGI V3 Logo",
+        src: "img/logo.jpeg",
       },
       items: [
         {
